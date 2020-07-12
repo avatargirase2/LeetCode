@@ -2,6 +2,7 @@ package com.job.interviews;
 
 /*Given a string, find the length of the longest substring without repeating characters.
  *Company : HCL/Nortan Security 
+ *Solution Type: Moving Window
  * */
 
 import java.util.HashSet;
