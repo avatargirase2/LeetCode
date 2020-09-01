@@ -1,9 +1,29 @@
 
 public class HelloGit {
 	
-	// Commented
-	public static void main(String[] args) {
-		System.out.println("Hi fi in test branch");
+	
+	
+	public void A() {
+		
+		B();
 	}
-
+	
+	
+	public void B() {
+		
+		C();
+	}
+	
+	
+	public void C() {
+		
+	String a = null;
+	a.toString();
+	
+	}
+	
+	public static void main(String[] args) {
+		
+		new HelloGit().A();;
+	}
 }
